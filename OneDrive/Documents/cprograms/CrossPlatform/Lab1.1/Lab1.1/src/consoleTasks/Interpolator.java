@@ -23,7 +23,7 @@ abstract class Interpolator implements Evaluatable {
     }
 }
 
-public class ListInterpolation extends Interpolator {
+class ListInterpolation extends Interpolator {
     private List<Point2D> data = new ArrayList<>();
 
     public void addPoint(Point2D pt) { data.add(pt); }

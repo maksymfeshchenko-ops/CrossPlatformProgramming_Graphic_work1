@@ -16,7 +16,7 @@ abstract class Point {
 }
 
 // Точка 2D з інтерфейсом Comparable
-public class Point2D extends Point implements Comparable<Point2D> {
+class Point2D extends Point implements Comparable<Point2D> {
     public Point2D(double x, double y) {
         super(2);
         setX(x); setY(y);
